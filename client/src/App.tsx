@@ -92,6 +92,7 @@ import CaseStudies from "./components/CaseStudies";
 import WhatsAppGuide from "./components/WhatsAppGuide";
 import BestPractices from "./components/BestPractices";
 import CookiePolicy from "./components/CookiePolicy";
+import RefundPolicy from "./components/RefundPolicy";
 import ContactusLanding from "./components/ContactusLanding";
 import { SignupPopupHandler } from "./components/SignupPopupHandler";
 import Careers from "./components/Careers";
@@ -610,6 +611,13 @@ function Router() {
           <>
             <Header />
             <CookiePolicy />
+            <Footer />
+          </>
+        </Route>
+        <Route path="/refund-policy">
+          <>
+            <Header />
+            <RefundPolicy />
             <Footer />
           </>
         </Route>

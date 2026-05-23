@@ -80,6 +80,7 @@ const Footer: React.FC = () => {
       { name: legalLinks[0], href: "/privacy-policy" },
       { name: legalLinks[1], href: "/terms" },
       { name: legalLinks[2], href: "/cookie-policy" },
+      { name: "Refund Policy", href: "/refund-policy" },
     ],
   };
 
@@ -217,6 +218,12 @@ const Footer: React.FC = () => {
                 className="text-gray-500 hover:text-gray-300 text-xs transition-colors duration-200"
               >
                 {t("Landing.footerSec.bottomBar.cookieLink")}
+              </Link>
+              <Link
+                to="/refund-policy"
+                className="text-gray-500 hover:text-gray-300 text-xs transition-colors duration-200"
+              >
+                Refund Policy
               </Link>
             </div>
           </div>
